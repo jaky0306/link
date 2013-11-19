@@ -6,6 +6,7 @@ public class LinkList<T>
 	{
 
 	// hehehehee
+	// new one hehehehe
 		
 		private T data;
 		private Node next;

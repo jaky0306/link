@@ -4,6 +4,8 @@ public class LinkList<T>
 {
 	private class Node
 	{
+
+	// hehehehee
 		
 		private T data;
 		private Node next;

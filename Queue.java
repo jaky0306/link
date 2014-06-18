@@ -1,11 +1,11 @@
-package queue;
+ï»¿package queue;
 
 public class Queue<T> {
 	private class QNode
 	{
 		private T data;
 		private QNode next;
-		public QNode(T data,QNode next)
+		public QNode(T data,QNode next)  //æ„é€ å‡½æ•°
 		{
 			this.data=data;
 			this.next=next;
@@ -19,7 +19,7 @@ public class Queue<T> {
 		rear=front=new QNode(null,null);
 		if(front==null)
 		{
-			System.out.println("³õÊ¼»¯´íÎó");
+			System.out.println("åˆå§‹åŒ–é”™è¯¯");
 			return 0;
 		}
 		front.next=null;
@@ -37,7 +37,7 @@ public class Queue<T> {
 	{
 		if(rear==front)
 		{
-			System.out.println("¶ÓÁĞÎª¿Õ");
+			System.out.println("é˜Ÿåˆ—ä¸ºç©º");
 			return 0;
 		}
 		QNode t=front.next;

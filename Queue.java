@@ -5,7 +5,7 @@ public class Queue<T> {
 	{
 		private T data;
 		private QNode next;
-		public QNode(T data,QNode next)  //构造函数
+		public QNode(T data,QNode next)  //构造函数,构造函数
 		{
 			this.data=data;
 			this.next=next;
